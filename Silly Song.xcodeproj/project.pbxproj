@@ -13,6 +13,7 @@
 		3A3A82F5263CB6300026568E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3A82F3263CB6300026568E /* Main.storyboard */; };
 		3A3A82F7263CB6310026568E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3A82F6263CB6310026568E /* Assets.xcassets */; };
 		3A3A82FA263CB6310026568E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3A82F8263CB6310026568E /* LaunchScreen.storyboard */; };
+		3A75EC81263D897800F36EA3 /* SillySongGenerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A75EC80263D897800F36EA3 /* SillySongGenerate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3A3A82F6263CB6310026568E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A3A82F9263CB6310026568E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A3A82FB263CB6310026568E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A75EC80263D897800F36EA3 /* SillySongGenerate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillySongGenerate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3A3A82F6263CB6310026568E /* Assets.xcassets */,
 				3A3A82F8263CB6310026568E /* LaunchScreen.storyboard */,
 				3A3A82FB263CB6310026568E /* Info.plist */,
+				3A75EC80263D897800F36EA3 /* SillySongGenerate.swift */,
 			);
 			path = "Silly Song";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A3A82F2263CB6300026568E /* ViewController.swift in Sources */,
+				3A75EC81263D897800F36EA3 /* SillySongGenerate.swift in Sources */,
 				3A3A82EE263CB6300026568E /* AppDelegate.swift in Sources */,
 				3A3A82F0263CB6300026568E /* SceneDelegate.swift in Sources */,
 			);
