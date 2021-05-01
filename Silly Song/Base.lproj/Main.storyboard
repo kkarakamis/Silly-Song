@@ -96,6 +96,7 @@
                     </view>
                     <connections>
                         <outlet property="LyricTextField" destination="JKV-Fx-wue" id="LDA-Kt-NVV"/>
+                        <outlet property="namePlain" destination="aya-PR-IQP" id="trt-46-xfp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

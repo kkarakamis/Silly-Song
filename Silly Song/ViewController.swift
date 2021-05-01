@@ -9,27 +9,27 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var namePlace: UITextField!
-
+    @IBOutlet weak var namePlain: UITextField!
+    
     @IBOutlet weak var LyricTextField: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         LyricTextField?.text = ""
-        namePlace?.text = ""
-        namePlace?.delegate = self
+        namePlain?.text = ""
+        namePlain?.delegate = self
 
     }
 
     @IBAction func reset(_ sender: Any) {
         LyricTextField.text = ""
-        namePlace.text = ""
+        namePlain.text = ""
     }
     @IBAction func displayLyrics(_ sender: Any) {
         
-        if namePlace.text != nil {
+        if namePlain.text != nil {
             LyricTextField?.text = lyricsForName(lyricsTemplate: bananaFanaLyricsTemplate,
-                              fullName: namePlace.text!)
+                              fullName: namePlain.text!)
         }
     }
     
