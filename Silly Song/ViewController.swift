@@ -11,26 +11,29 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var namePlain: UITextField!
     
-    @IBOutlet weak var LyricTextField: UITextView!
+    @IBOutlet weak var lyricTextField: UITextView!
+    
+    @IBOutlet weak var mainPlain: UIStackView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        LyricTextField?.text = ""
+        lyricTextField?.text = ""
         namePlain?.text = ""
         namePlain?.delegate = self
+        mainPlain.alignment = .center
 
     }
 
     @IBAction func reset(_ sender: Any) {
-        LyricTextField.text = ""
+        lyricTextField.text = ""
         namePlain.text = ""
     }
     @IBAction func displayLyrics(_ sender: Any) {
         
-        if namePlain.text != nil {
-            LyricTextField?.text = lyricsForName(lyricsTemplate: bananaFanaLyricsTemplate,
-                              fullName: namePlain.text!)
-        }
+        let name = namePlain?.text ?? ""
+        lyricTextField?.text = lyricsForName(lyricsTemplate: bananaFanaLyricsTemplate,
+                                            fullName: name)
+        
     }
     
     

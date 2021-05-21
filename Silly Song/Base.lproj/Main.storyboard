@@ -95,7 +95,8 @@
                         <color key="backgroundColor" red="0.81168932828108353" green="0.86087566614151001" blue="0.63068770185736756" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
-                        <outlet property="LyricTextField" destination="JKV-Fx-wue" id="LDA-Kt-NVV"/>
+                        <outlet property="lyricTextField" destination="JKV-Fx-wue" id="LDA-Kt-NVV"/>
+                        <outlet property="mainPlain" destination="J5R-V9-4l7" id="TEF-k6-PLb"/>
                         <outlet property="namePlain" destination="aya-PR-IQP" id="trt-46-xfp"/>
                     </connections>
                 </viewController>
